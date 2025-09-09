@@ -22,7 +22,7 @@ const Body = () => {
   }
   const search = (value) => {
     setSearchText(value);
-    setFiltered(filtered.filter((character) => character.name.toLowerCase().includes(searchText.toLowerCase())));
+    setFiltered(characters.filter((character) => character.name.toLowerCase().includes(searchText.toLowerCase())));
   }
   const handleClick = (character) => {
     setSelectedCharacter(character);
