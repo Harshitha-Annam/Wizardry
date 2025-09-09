@@ -5,4 +5,5 @@ import tailwindcss from '@tailwindcss/vite';
 export default defineConfig({
   build : '/Wizardry/',
   plugins: [react(), tailwindcss(),],
+  base : '/Wizardry/',
 })
