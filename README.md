@@ -3,7 +3,9 @@
 </p>
 
 # Demo Pages
-(https://github.com/Harshitha-Annam/Wizardry/blob/main/public/wizardry-1.JPG)
+![wizardry-1](https://github.com/user-attachments/assets/3e3b114f-396f-432c-8123-7bec52d87887)
+![wizardry-2](https://github.com/user-attachments/assets/e66c284b-bb8f-4058-906e-f9270b20d339)
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
