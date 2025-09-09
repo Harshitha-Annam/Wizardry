@@ -1,7 +1,8 @@
 <p align="center">
     <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB" width="200"/>
 </p>
-
+# Check Live Website
+<a href = "https://harshitha-annam.github.io/Wizardry/"> Wizardry</a>
 # Demo Pages
 ![wizardry-1](https://github.com/user-attachments/assets/3e3b114f-396f-432c-8123-7bec52d87887)
 ![wizardry-2](https://github.com/user-attachments/assets/e66c284b-bb8f-4058-906e-f9270b20d339)
