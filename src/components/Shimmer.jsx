@@ -4,7 +4,7 @@
 const ShimmerCard = () => {
   return (
     <div className=" shimmer-card flex flex-col  gap-[0.5rem] m-[1rem] grow-1">
-      <div className=" h-[180px] md:w-[200px] w-[140px] rounded-t-2xl bg-[#373737] grow-1"></div>
+      <div className=" h-[180px] md:w-[200px] w-[130px] rounded-t-2xl bg-[#373737] grow-1"></div>
       <div className="p-[0.2rem] mt-[0.4rem] flex flex-col justify-between grow-1 gap-[0.5rem] ">
         <div className=" h-[30px] md:w-[90%] bg-[#373737] rounded-2xl"></div>
         <div className="h-[30px] md:w-[90%] bg-[#373737] rounded-2xl"></div>
