@@ -4,6 +4,7 @@ import femaleIcon from '../assets/female.svg';
 import noImage from '../assets/noimage.png';
 import Search from './Search';
 import DetailsModal from "./DetailsModal";
+import Shimmer from "./Shimmer";
 const Body = () => {
     const [characters, setCharacters] = useState([]);
     const [filtered, setFiltered] = useState([]);
@@ -28,9 +29,10 @@ const Body = () => {
     setSelectedCharacter(character);
     dialog.current.showModal();
   }
-  if(characters.length == 0) return <h1>Loading...</h1>
+  if(characters.length == 0) return <Shimmer/>
     return (
         <>
+        {/* <Shimmer/> */}
         <Search text = {searchText} handleSearch = {search}/>
 
         {(filtered.length ===0)? <main className=" max-w-[1400px] w-[90%] p-[1rem] mt-[1rem] container flex items-center "><img src={noImage} className="w-[100px]"/></main>:

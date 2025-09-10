@@ -143,6 +143,12 @@ dialog::-webkit-scrollbar{
     /* height: 180px; */
     object-fit: cover;
   }
+  .shimmer-card{
+    width: 120px;
+  }
+  .shimmer-card div{
+    width: 120px;
+  }
 }
 
 
